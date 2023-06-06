@@ -1,0 +1,27 @@
+{
+  "name": "extreme-theme",
+  "displayName": "Extreme Theme",
+  "description": "Tema Dark com boas separacoes entre Tags, Funções, etc; otimo para dev iniciantes  ",
+  "version": "0.0.1",
+  "publisher": "97a3a878637c6a75bd87a20a0d1a1d21",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MARomagna/Extreme-theme"
+  },
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Extreme Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Extreme-Dark-Theme-color-theme.json"
+      }
+    ]
+  }
+}
